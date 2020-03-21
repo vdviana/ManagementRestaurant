@@ -1,0 +1,4 @@
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_MDL\bin\ManagementRestaurant_MDL.dll
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_MDL\bin\ManagementRestaurant_MDL.pdb
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_MDL\obj\Debug\ManagementRestaurant_MDL.dll
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_MDL\obj\Debug\ManagementRestaurant_MDL.pdb

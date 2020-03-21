@@ -1,0 +1,168 @@
+﻿body {
+    background-image:url('../imgs/estrutura/new_fundo.png');
+    background-repeat:repeat-x;
+}
+#tudoLogin {
+    background-image:url('../imgs/estrutura/img_login.png');
+    background-repeat:no-repeat;
+    height: 357px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: left;
+    width: 586px;
+    height: 586px;
+}
+
+#login {
+    color: #000000;
+    font-family: Arial, Verdana;
+    font-size: small;
+    height: 54px;
+    margin-left: 64px;
+    margin-top: 340px;
+    position: absolute;
+    width: 332px;
+}
+
+#logo {
+    background-image:url('../imgs/estrutura/logo.png');
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-top:0px;
+    margin-left:10px;
+    width: 157px;
+    height: 167px;
+}
+.Botoes {
+    background-color: #e57100;
+    border: solid #e57100;
+    color: #ffffff;
+}
+.BotoesLogin {
+    background-color: #383838;
+    border: solid #383838;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    box-shadow: 2px 0px 9px 3px  lightgray;
+    
+}
+#conteudo {
+    background-image:url('../imgs/estrutura/marca_dagua.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-top:143px;
+    margin-left:220px;
+    width: auto;
+    height: 500px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+#conteudoEati {
+    background-image:url('../imgs/estrutura/marca_dagua.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top:100px;
+    width: 800px;
+    height: 500px;
+}
+#saldacao {
+    position:absolute;
+    margin-top:116px;
+    margin-left:220px;
+    width: 300px;
+    height: auto;
+    font: 12px Verdana;
+    font-style: italic;
+    color:#808080;
+}
+#sair {
+    position:absolute;
+    margin-top:116px;
+    margin-left:964px;
+    width: 80px;
+    height: auto;
+    font: 12px Verdana;
+    font-style: italic;
+    color:#808080;
+}
+
+/*CSS MENU*/
+#topoMenu {
+    background-image:url('../imgs/estrutura/topo.png');
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-top:0px;
+    margin-left:0px;
+    width: 214px;
+    height: 239px;
+}
+#menu {
+    background-color: #e57100;
+    position:absolute;
+    margin-top:210px;
+    margin-left:0px;
+    width: 203px;
+    height:auto;
+}
+
+
+
+.urbangreymenu{
+width: 203px; /*width of menu*/
+}
+
+.urbangreymenu .headerbar{
+font: 10px Verdana;
+font-style: italic;
+color: white;
+background: #e57100 url(arrowstop.gif) no-repeat 8px 6px; /*last 2 values are the x and y coordinates of bullet image*/
+margin-bottom: 0; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 7px 0 7px 5px; /*31px is left indentation of header text*/
+border-top: solid 1px #ffffff;
+border-bottom: solid 1px #ffffff;
+
+}
+
+.urbangreymenu .headerbar a{
+text-decoration: none;
+color: white;
+}
+
+.urbangreymenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.urbangreymenu ul li{
+padding-bottom: 0px; /*bottom spacing between menu items*/
+
+}
+
+.urbangreymenu ul li a{
+font: normal 12px Arial;
+color: #808080;
+background: #E9E9E9;
+display: block;
+padding: 6px 0;
+line-height: 17px;
+padding-left: 8px; /*link text is indented 8px*/
+text-decoration: none;
+border-bottom:dotted 1px #979797;
+}
+
+.urbangreymenu ul li a:visited{
+color: #808080;
+}
+
+.urbangreymenu ul li a:hover{ /*hover state CSS*/
+color: white;
+background: #979797;
+}
+/*FIM CSS MENU*/

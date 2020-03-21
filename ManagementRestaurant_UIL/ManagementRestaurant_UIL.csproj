@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{011BA3C1-A7E9-4F32-8A98-D2AB460C75C9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ManagementRestaurant_UIL</RootNamespace>
+    <AssemblyName>ManagementRestaurant_UIL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cadastro_eati.aspx" />
+    <Content Include="css\config.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\principal.css" />
+    <Content Include="default.aspx" />
+    <Content Include="imgs\base\admin_menu.png" />
+    <Content Include="imgs\base\cad_menu.png" />
+    <Content Include="imgs\base\finance_menu.png" />
+    <Content Include="imgs\base\fundo.png" />
+    <Content Include="imgs\base\fundo_login.png" />
+    <Content Include="imgs\base\imgAdmin.png" />
+    <Content Include="imgs\base\imgCad.png" />
+    <Content Include="imgs\estrutura\icon_dados.png" />
+    <Content Include="imgs\base\imgFinan.png" />
+    <Content Include="imgs\base\imgRel.png" />
+    <Content Include="imgs\base\imgVenda.png" />
+    <Content Include="imgs\base\logo_empresa.png" />
+    <Content Include="imgs\base\logo_sistema.png" />
+    <Content Include="imgs\base\menu_opera.png" />
+    <Content Include="imgs\base\relat_menu.png" />
+    <Content Include="imgs\base\txt_logo.png" />
+    <Content Include="imgs\base\venda_menu.png" />
+    <Content Include="imgs\estrutura\icon_admin.png" />
+    <Content Include="imgs\estrutura\icon_estoque.png" />
+    <Content Include="imgs\estrutura\icon_finan.png" />
+    <Content Include="imgs\estrutura\icon_ope.png" />
+    <Content Include="imgs\estrutura\icon_rela.png" />
+    <Content Include="imgs\estrutura\icon_vendas.png" />
+    <Content Include="imgs\estrutura\marca_dagua.png" />
+    <Content Include="imgs\estrutura\new_fundo.png" />
+    <Content Include="imgs\estrutura\topo.png" />
+    <Content Include="imgs\estrutura\img_login.png" />
+    <Content Include="imgs\icones\icon_calendario.png" />
+    <Content Include="js\ddaccordion.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\mascara.js" />
+    <Content Include="login.aspx" />
+    <Content Include="modulos\administrativo\cadastro_funcionario.aspx" />
+    <Content Include="modulos\alteracao\dados_cliente.aspx" />
+    <Content Include="modulos\alteracao\dados_fornecedor.aspx" />
+    <Content Include="modulos\alteracao\dados_funcionario.aspx" />
+    <Content Include="modulos\alteracao\lista_ativos.aspx" />
+    <Content Include="modulos\alteracao\lista_clientes.aspx" />
+    <Content Include="modulos\alteracao\lista_inativos.aspx" />
+    <Content Include="modulos\cadastro\cadastro_prato.aspx" />
+    <Content Include="modulos\alteracao\alterar_frota.aspx" />
+    <Content Include="modulos\operacional\controle_ponto.aspx" />
+    <Content Include="modulos\administrativo\ferias_funcionario.aspx" />
+    <Content Include="modulos\cadastro\cadastro_cliente.aspx" />
+    <Content Include="modulos\cadastro\cadastro_fornecedor.aspx" />
+    <Content Include="modulos\cadastro\cadastro_produto.aspx" />
+    <Content Include="modulos\cadastro\entrada_estoque.aspx" />
+    <Content Include="modulos\home\home.aspx" />
+    <Content Include="modulos\operacional\cadastro_frota.aspx" />
+    <Content Include="modulos\operacional\controle_veiculo.aspx" />
+    <Content Include="modulos\vendas\cadastro_pedido.aspx" />
+    <Content Include="modulos\vendas\reserva_mesa.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cadastro_eati.aspx.cs">
+      <DependentUpon>cadastro_eati.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastro_eati.aspx.designer.cs">
+      <DependentUpon>cadastro_eati.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master\login.Master.cs">
+      <DependentUpon>login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\login.Master.designer.cs">
+      <DependentUpon>login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\master_eati.Master.cs">
+      <DependentUpon>master_eati.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\master_eati.Master.designer.cs">
+      <DependentUpon>master_eati.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\principal.Master.cs">
+      <DependentUpon>principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\principal.Master.designer.cs">
+      <DependentUpon>principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\administrativo\cadastro_funcionario.aspx.cs">
+      <DependentUpon>cadastro_funcionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\administrativo\cadastro_funcionario.aspx.designer.cs">
+      <DependentUpon>cadastro_funcionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\alteracao\dados_cliente.aspx.cs">
+      <DependentUpon>dados_cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\alteracao\dados_cliente.aspx.designer.cs">
+      <DependentUpon>dados_cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\alteracao\dados_fornecedor.aspx.cs">
+      <DependentUpon>dados_fornecedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\alteracao\dados_fornecedor.aspx.designer.cs">
+      <DependentUpon>dados_fornecedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\alteracao\dados_funcionario.aspx.cs">
+      <DependentUpon>dados_funcionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\alteracao\dados_funcionario.aspx.designer.cs">
+      <DependentUpon>dados_funcionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\alteracao\lista_ativos.aspx.cs">
+      <DependentUpon>lista_ativos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\alteracao\lista_ativos.aspx.designer.cs">
+      <DependentUpon>lista_ativos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\alteracao\lista_clientes.aspx.cs">
+      <DependentUpon>lista_clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\alteracao\lista_clientes.aspx.designer.cs">
+      <DependentUpon>lista_clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\alteracao\lista_inativos.aspx.cs">
+      <DependentUpon>lista_inativos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\alteracao\lista_inativos.aspx.designer.cs">
+      <DependentUpon>lista_inativos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_prato.aspx.cs">
+      <DependentUpon>cadastro_prato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_prato.aspx.designer.cs">
+      <DependentUpon>cadastro_prato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\alteracao\alterar_frota.aspx.cs">
+      <DependentUpon>alterar_frota.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\alteracao\alterar_frota.aspx.designer.cs">
+      <DependentUpon>alterar_frota.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\operacional\controle_ponto.aspx.cs">
+      <DependentUpon>controle_ponto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\operacional\controle_ponto.aspx.designer.cs">
+      <DependentUpon>controle_ponto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\administrativo\ferias_funcionario.aspx.cs">
+      <DependentUpon>ferias_funcionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\administrativo\ferias_funcionario.aspx.designer.cs">
+      <DependentUpon>ferias_funcionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_cliente.aspx.cs">
+      <DependentUpon>cadastro_cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_cliente.aspx.designer.cs">
+      <DependentUpon>cadastro_cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_fornecedor.aspx.cs">
+      <DependentUpon>cadastro_fornecedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_fornecedor.aspx.designer.cs">
+      <DependentUpon>cadastro_fornecedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_produto.aspx.cs">
+      <DependentUpon>cadastro_produto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\cadastro\cadastro_produto.aspx.designer.cs">
+      <DependentUpon>cadastro_produto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\cadastro\entrada_estoque.aspx.cs">
+      <DependentUpon>entrada_estoque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\cadastro\entrada_estoque.aspx.designer.cs">
+      <DependentUpon>entrada_estoque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\home\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\home\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\operacional\cadastro_frota.aspx.cs">
+      <DependentUpon>cadastro_frota.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\operacional\cadastro_frota.aspx.designer.cs">
+      <DependentUpon>cadastro_frota.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\operacional\controle_veiculo.aspx.cs">
+      <DependentUpon>controle_veiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\operacional\controle_veiculo.aspx.designer.cs">
+      <DependentUpon>controle_veiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\vendas\cadastro_pedido.aspx.cs">
+      <DependentUpon>cadastro_pedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\vendas\cadastro_pedido.aspx.designer.cs">
+      <DependentUpon>cadastro_pedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulos\vendas\reserva_mesa.aspx.cs">
+      <DependentUpon>reserva_mesa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulos\vendas\reserva_mesa.aspx.designer.cs">
+      <DependentUpon>reserva_mesa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="master\master_eati.Master" />
+    <Content Include="master\principal.Master" />
+    <Content Include="master\login.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ManagementRestaurant_BLL\ManagementRestaurant_BLL.csproj">
+      <Project>{9a89f5f8-69eb-4561-a998-ef3615f6702b}</Project>
+      <Name>ManagementRestaurant_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagementRestaurant_GLL\ManagementRestaurant_GLL.csproj">
+      <Project>{5c70864c-bd79-4e41-8527-fa6c9d8f64a9}</Project>
+      <Name>ManagementRestaurant_GLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagementRestaurant_MDL\ManagementRestaurant_MDL.csproj">
+      <Project>{d4abf752-8118-47d8-a9b2-8587c238c9fc}</Project>
+      <Name>ManagementRestaurant_MDL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52997/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

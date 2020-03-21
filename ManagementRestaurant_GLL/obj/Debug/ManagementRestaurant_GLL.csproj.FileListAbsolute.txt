@@ -1,0 +1,7 @@
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_GLL\bin\ManagementRestaurant_GLL.dll
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_GLL\bin\ManagementRestaurant_GLL.pdb
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_GLL\bin\ManagementRestaurant_MDL.dll
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_GLL\bin\ManagementRestaurant_MDL.pdb
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_GLL\obj\Debug\ManagementRestaurant_GLL.csprojResolveAssemblyReference.cache
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_GLL\obj\Debug\ManagementRestaurant_GLL.dll
+D:\asdasd\ManagementRestaurant\ManagementRestaurant\ManagementRestaurant_GLL\obj\Debug\ManagementRestaurant_GLL.pdb
